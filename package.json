@@ -1,0 +1,38 @@
+{
+    "name": "learn-redux",
+    "version": "1.0.0",
+    "description": "Learn react redux",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "redux",
+        "react",
+        "webpack",
+        "indraarianggi"
+    ],
+    "author": "Indra Arianggi <indraarianggi@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "react-redux": "^6.0.0",
+        "redux": "^4.0.1",
+        "webpack": "^4.28.4",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.14"
+    },
+    "dependencies": {
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0",
+        "uuid": "^3.3.2"
+    }
+}
